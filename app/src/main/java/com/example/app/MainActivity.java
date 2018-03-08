@@ -163,7 +163,7 @@ public class MainActivity extends Activity implements CompoundButton.OnCheckedCh
     public void AlertBox(final String title, String message) {
         new AlertDialog.Builder(this)
                 .setTitle(title)
-                .setMessage(message + " Press OK to exit.")
+                .setMessage(message + " Press OK to exit...")
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface arg0, int arg1) {
                         //   finish();

@@ -233,7 +233,7 @@ public class BlueActivity {
             }
         }
 
-        void cancel() {
+        public void cancel() {
             try {
                 BTST.close();
             } catch (IOException e) {
